@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*?search=
+
+# Sitemap
+Sitemap: https://www.stadiumcompany.fr/sitemap.xml
+
+# Crawl-delay pour respecter les serveurs
+Crawl-delay: 1
